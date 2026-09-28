@@ -13,4 +13,4 @@ SELECT
     shipvia AS ship_via,
     shipcity AS ship_city,
     shipcountry AS ship_country
-FROM source_data,
+FROM source_data

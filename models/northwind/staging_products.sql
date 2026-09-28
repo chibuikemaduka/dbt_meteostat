@@ -4,7 +4,7 @@ WITH source_data AS (
 )
 
 SELECT
-    productid AS product_id,
+    product_id AS product_id,
     productname AS product_name,
     supplierid AS supplier_id,
     categoryid AS category_id,

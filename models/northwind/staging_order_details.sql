@@ -4,7 +4,7 @@ WITH source_data AS (
 )
 
 SELECT
-	orderid AS order_id,
+	order_id AS order_id,
 	productid AS product_id,
 	unitprice::NUMERIC AS unit_price,
 	quantity::INT AS quantity,
