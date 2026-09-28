@@ -4,9 +4,9 @@ WITH source_data AS (
 )
 
 SELECT
-	order_id AS order_id,
-	productid AS product_id,
-	unitprice::NUMERIC AS unit_price,
+	 order_id,
+	 product_id,
+	unit_price::NUMERIC AS unit_price,
 	quantity::INT AS quantity,
 	discount::NUMERIC AS discount
 FROM source_data

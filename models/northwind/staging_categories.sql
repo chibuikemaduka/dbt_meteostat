@@ -4,6 +4,6 @@ WITH source_data AS (
 )
 
 SELECT
-    category_id AS category_id,
-    categoryname AS category_name
+   category_id,
+   category_name
 FROM source_data
